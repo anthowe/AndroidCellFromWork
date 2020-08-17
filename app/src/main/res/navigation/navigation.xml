@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.android.navigation.TitleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment_to_verizonFragment"
+            app:destination="@id/verizonFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_attFragment"
+            app:destination="@id/attImage" />
+    </fragment>
+    <fragment
+        android:id="@+id/attImage"
+        android:name="com.example.android.navigation.ATTFragment"
+        android:label="fragment_att"
+        tools:layout="@layout/fragment_att" >
+        <action
+            android:id="@+id/action_attFragment_to_titleFragment"
+            app:destination="@id/titleFragment" />
+        <action
+            android:id="@+id/action_attImage_to_blankFragment"
+            app:destination="@id/blankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verizonFragment"
+        android:name="com.example.android.navigation.VerizonFragment"
+        android:label="fragment_verizon"
+        tools:layout="@layout/fragment_verizon" >
+        <action
+            android:id="@+id/action_verizonFragment_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.android.navigation.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment_to_blankFragment2"
+            app:destination="@id/blankFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="com.example.android.navigation.BlankFragment2"
+        android:label="fragment_blank2"
+        tools:layout="@layout/fragment_blank2" />
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.android.navigation.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_titleFragment"
+            app:destination="@id/titleFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_signinFragment"
+            app:destination="@id/signinFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signinFragment"
+        android:name="com.example.android.navigation.SigninFragment"
+        android:label="fragment_signin"
+        tools:layout="@layout/fragment_signin" >
+        <action
+            android:id="@+id/action_signinFragment_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.android.navigation.SignupFragment"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signupFragment_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
+</navigation>

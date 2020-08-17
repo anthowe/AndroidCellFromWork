@@ -1,0 +1,98 @@
+<!--
+  ~ Copyright 2018, The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Discount Prepaid Cellular</string>
+
+    <string name="back_button">Back</string>
+    <string name="submit_button">Submit</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigatetoatt">navigateToATT</string>
+    <string name="navigatetoverizon">navigateToVerizon</string>
+    <string name="why_pay_more"> Why pay more for your prepaid
+    cellular refills than you need? 
+    Great savings of up to 19% on
+    Access Wireless -Airvoice -ATT-
+    Lyca Mobile -Net10 -Page Plus -
+    Ready Mobile - T Mobile - Verizon 
+    Start saving on your prepaid
+    cellular refills</string>
+
+    ​
+    ​
+    <string name="our_purpose">     Our sole purpose is to offer the cheapest
+      prepaid cellular refills, not to look pretty or
+      twist your arm to purchase our products.</string>
+    ​
+    <string name="for_example">    For example, you could be
+    paying $54.15 for a $50 ATT
+    refill, including 911 and sales 
+    tax fees: our discounted price
+    is $44.50, that is an 18%
+    savings!</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="welcome">Welcome to our app</string>
+    <string name="login_register_text">Please Login or Register to Begin</string>
+    <string name="login_text">Login</string>
+    <string name="register_text">Register</string>
+    <string name="signup">Signup</string>
+    <string name="please_enter_email">Please enter email</string>
+
+
+
+    <string name="password_error">Password must have  at least 6 characters</string>
+    <string name="email_error">Invalid email</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Password</string>
+    <string name="username_hint">Username</string>
+    <string name="register_button">Sign up</string>
+    <string name="repeat_password_hint">Repeat password</string>
+    <string name="username_error">Username needs to be at least 6 characters</string>
+    <string name="repeat_password_error">Passwords do not match</string>
+    <string name="log_in_button">Log in</string>
+    <string name="all_jokes_title">All jokes</string>
+    <string name="favorite_jokes_title">Favorite jokes</string>
+    <string name="my_profile_title">My profile</string>
+    <string name="log_out_button">Log out</string>
+    <string name="number_of_jokes_text">Number of favorite jokes: %d</string>
+    <string name="email_text">User email: %s</string>
+    <string name="username_text">Username: %s</string>
+    <string name="welcome_description">In order to join other Jokers, you first need to sign up :]</string>
+    <string name="no_items_text">There seems to be no items :[</string>
+    <string name="error_title">Oops</string>
+    <string name="error_message">Something went wrong! Please try again.</string>
+    <string name="general_positive_button">OK</string>
+    <string name="joke_hint">Enter your joke</string>
+    <string name="add_joke_text">Add joke</string>
+    <string name="joke_error">Each joke must have at least 10 characters</string>
+    <string name="email_empty_error">Email is empty</string>    ​
+    ​
+    ​
+    ​
+     
+    ​
+</resources>
